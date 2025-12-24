@@ -1,0 +1,82 @@
+.explore-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    height: calc(100vh - 5rem);
+    box-sizing: border-box;
+    background-color: #2c3335;
+  }
+  
+  /* Left Column */
+  .left-column {
+    flex: 0.7;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #1e272e;
+  }
+  
+  /* Right Column */
+  .right-column {
+    flex: 0.3;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #1e272e;
+  }
+  
+  /* Category and Item Rows */
+  .first-row {
+    flex: 0.3;
+    overflow-y: auto;
+    box-sizing: border-box;
+  }
+  
+  .second-row {
+    flex: 0.7;
+    overflow-y: auto;
+    box-sizing: border-box;
+  }
+  
+  .horizontal-line {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #cccccc;
+  }
+  
+  /* Right Column Sections */
+  .customer-form-container {
+    height: 15%;
+    box-sizing: border-box;
+  }
+  
+  .cart-items-container {
+    height: 55%;
+    overflow-y: auto;
+    border-top: 1px solid #ccc;
+
+    box-sizing: border-box;
+  }
+  
+  .cart-summary-container {
+    height: 30%;
+    border-top: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Cart Item Styling */
+  .cart-item {
+    background-color: #2c2c2c;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
